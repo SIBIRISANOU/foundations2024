@@ -1,0 +1,13 @@
+p{
+    font-size: 36;
+    color:hsl(350, 100%, 46%);
+    text-align: center;
+    background-color: aquamarine;
+}
+#secondParagraph {
+    background-color: black;
+}
+.commonParagraph {
+    text-decoration: underline;
+    font-size: 24px;
+}
