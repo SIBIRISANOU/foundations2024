@@ -1,6 +1,6 @@
 p{
     font-size: 36;
-    color:hsl(350, 100%, 46%);
+    color:hsla(350, 100%, 46%, 0.849);
     text-align: center;
     background-color: aquamarine;
 }
@@ -10,4 +10,18 @@ p{
 .commonParagraph {
     text-decoration: underline;
     font-size: 24px;
+}
+
+a {
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color:blue;
 }
