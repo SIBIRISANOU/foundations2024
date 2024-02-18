@@ -1,34 +1,31 @@
-p{
-    font-size: 36;
-    color:hsla(350, 100%, 46%, 0.151);
-    text-align: center;
-    background-color: rgba(127, 255, 212, 0.096);
+.ol{
+    flex-direction: row;
+    background-color: black;
+    color: brown;
 }
-
-a {
-    background-color: none;
-text-decoration: none;
-color: black;
-font-size: 20px;
+.li{
+    flex-direction: row;
 }
-
-ul {
-    list-style: armenian;
-}
-
-a:hover {
-    color:blue;
-}
-
-h2 {
+.h1{
+    text-transform: none;
+    color: blue;
     text-decoration: none;
-    color: black;
-    font-size: x-large;
-
-  }
-h3 {
-    text-decoration: none;
-    color: black;
-    font-size: 25px
-  }
-  
+}
+.h2{
+    image-orientation: inherit ;
+}
+.h3{
+    border-image-outset: 0px;
+}
+.ol{
+    flex-direction: row;
+    background-attachment: fixed;
+    color: aquamarine;
+}
+.li{
+    flex-direction: row;
+}
+.hover{
+    display: block;
+    
+}
