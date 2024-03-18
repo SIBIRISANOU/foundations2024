@@ -1,0 +1,11 @@
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a{
+    color: blue;
+    font-size: medium;
+}
