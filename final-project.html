@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINAL PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul{
+    color: rgb(58, 58, 134);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color: rgb(77, 68, 68);
+    
+}
+.grid-container{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(30%,3);
+    gap: 50px;
+}
+.info{
+    color: aliceblue;
+    display: flex;
+    justify-content: last baseline;
+    background-color: rgb(153, 82, 82);
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: beige;
+    background-color:blue;
+}
+    </style>
+
+</head>
+<body class="container" background="webbackground.jpg">
+
+    <nav class="navbar">
+        <div>
+            <div class="container"><img src="africa.jpg" height="100px" width="100px" alt="africa"></div>
+            <ul>
+                <li><a href="grid-gallery_example.html"><button>Home</button></a></li>
+                <li><a href="https://arfaex.com/"><button>Cart</button></a></li>
+                <li><a href="create_form.html"><button>Sign in</button></a></li>
+                <li><a href="create_form.html"><button>Sign up</button></a></li>
+                <li><a href="ibrahpapou1@gmail.com"><button>Help</button></a></li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+    <nav>
+    <h1><u><i>AIM INSTITUTE FINAL PROJECT</i></u></h1>
+    <section class="search">
+    Search : <input type="textbox">
+    </section>
+    </nav>
+    <section style="background-color: aqua;" class="grid-container">
+<div class="item"><img src="robot.webp" height="250px" width="250px" alt=""><a href="#">Robot</a></div>
+<div class="item"><img src="medtech.webp" height="250px" width="250px" alt=""><a href="#">medtech</a></div>
+<div class="item"><img src="artificial-human.jpg" height="250px" width="250px" alt=""><a href="#">AI</a></div>
+<div class="item"><img src="learntech.jpg" height="250px" width="250px" alt=""><a href="#">tech</a></div>
+<div class="item"><img src="laptop.jpg" height="250px" width="250px" alt=""><a href="#">Education</a></div>
+<div class="item"><img src="techimage-background.jpg" height="250px" width="250px" alt=""><a href="#">Office</a></div>
+</section>
+<footer>&copy; 2024
+    <nav class="info">
+        <ol>
+            <li><a href="">Activities</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="">Policy</a></li>
+            <li><a href="">Notifications</a></li>
+        </ol>
+    </nav>
+</footer>
+</body>
+</html>
